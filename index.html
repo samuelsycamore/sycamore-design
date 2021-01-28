@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased text-xl lg:text-2xl text-yellow-100 bg-gray-800">
+
+
+  <div class="fixed z-50 top-100 bottom-0 w-full md:left-1/2 p-8 pb-5 lg:px-36 transform md:-translate-x-1/2 ">
+
+    <nav class="bg-gray-900 bg-opacity-90 flex justify-evenly py-3 rounded-lg overflow-hidden text-gray-100 font-extralight" aria-label="quick access">
+
+
+      <a class="relative text-inverted text-center hover:text-red-400" title="Services" href="#services">
+        <ion-icon class="block mx-auto" name="construct-outline"></ion-icon>
+        <span class="text-xs md:text-lg">Services</span></a>
+
+      <a class="relative text-inverted text-center hover:text-red-400" title="Portfolio" href="#portfolio">
+        <ion-icon class="block mx-auto" name="folder-open-outline"></ion-icon>
+        <span class="text-xs md:text-lg">Portfolio</span></a>
+
+      <a class="relative text-inverted text-center hover:text-red-400" title="About" href="#about">
+        <ion-icon class="block mx-auto" name="leaf-outline"></ion-icon>
+        <span class="text-xs md:text-lg">About</span></a>
+
+      <a class="relative text-inverted text-center hover:text-red-400" title="Contact" href="#contact">
+        <ion-icon class="block mx-auto" name="mail-unread-outline"></ion-icon>
+        <span class="text-xs md:text-lg"><span class="text-xs md:text-lg">Contact</span></a>
+    </nav>
+  </div>
+
+
+
+  <div class="container max-w-full lg:pt-24">
+
+  <header class="p-10 mb-10 lg:px-32">
+    <div class="pb-10 md:grid md:grid-cols-2 md:grid-rows-1 md:gap-10 md:content-center">
+      
+      <div class="w-3/4 md:w-full mx-auto">
+        <img src="tree-outline.png">
+      </div>
+
+      <div class="">
+        <div class="my-10 w-full text-center">
+          <h1 class="uppercase font-bold text-5xl lg:text-7xl tracking-tighter text-gray-100">Sycamore <span class="text-red-400">Design</span></h1>
+        </div>
+
+        <div class="w-full">
+            <p class="mb-10 text-3xl lg:text-4xl italic text-center font-thin">Full-service web development for a new era.</p>
+        </div>
+        <div class="w-full text-center">
+            <button class="inline-block text-xl lg:inline lg:w-5/12 lg:mr-2 w-full mb-4 py-4 px-4 bg-red-400 tracking-tighter text-gray-800 rounded-md hover:bg-red-300"><a href="#contact">Work With Us</a></button>
+            <button class="inline-block text-xl lg:inline lg:w-5/12 w-full py-4 px-4 bg-transparent text-gray-100 tracking-tighter border rounded-md hover:text-red-300 hover:border-red-300"><a href="#services">Learn More</a></button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </header>
+
+  <main>
+
+    <section id="services" class="p-10 lg:px-32">
+
+      <div class="md:grid md:grid-cols-5 md:grid-rows-1 md:gap-10 md:content-center">
+
+        <div class="md:col-span-3">
+
+          <h2 class="mb-10 uppercase text-4xl lg:text-5xl tracking-tighter text-gray-100">What We Do</h2>
+          
+          <div class="border-b border-l p-10 pr-2 mb-10">
+            <p class="mb-10 py-2 text-3xl lg:text-5xl font-thin">We build smartphone-friendly websites that will impress your customers <span class="italic">and</span> make Google happy.
+            </p>
+            <p class="y-5 text-xl"><a class="underline text-gray-100 hover:text-red-400" href="#seo">Click here</a> to learn about how this works behind the scenes.</p>
+          </div>
+
+        </div>
+      
+
+        <div class="mb-10 bg-gray-100 text-gray-900 p-10 border-l-8 border-b-8 bg-gray-300 border-gray-500 md:col-span-2">
+          <div class="flex place-content-center text-5xl pb-5">
+          <ion-icon name="bulb-outline"></ion-icon>
+          </div>
+          
+          <h3 class="mb-5 py-2 text-2xl lg:text-3xl tracking-tighter uppercase text-center">Did you know?</h3>
+
+          <p class="mb-5 py-2">
+            As of 2020, mobile users account for about <a class="underline text-red-600 hover:text-red-400" href="https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/" target="_blank">half of all traffic online</a>. 
+          </p>
+          <p class="mb-5 py-2">
+            That number is <a class="underline text-red-600 hover:text-red-400" href="https://www.cnbc.com/2019/01/24/smartphones-72percent-of-people-will-use-only-mobile-for-internet-by-2025.html" target="_blank">expected to increase to 72%</a> by 2025.
+          </p>
+          <p class="=py-2">
+            If your website is not optimized for phone screens, you're missing out on the majority of users!
+          </p>
+        </div>
+
+
+      </div>
+
+
+      <div class="py-10">
+        <div class="">
+          <h2 class="mb-5 py-2 uppercase text-4xl lg:text-5xl tracking-tighter text-gray-100">Services</h2>
+        </div>
+
+        <div class="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-10 md:items-start md:auto-cols-auto text-xl">
+          <div class="border-b border-l p-10 pr-2">
+            <ion-icon name="code-slash-outline" class="text-5xl text-red-400"></ion-icon>
+            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl lg:text-3xl">Design & Development</h4>
+            <p class="mb-5 py-2">
+              In 2021, your customers are looking for you on small vertical screens that we navigate with our thumbs. 
+            </p>
+            <p class="mb-5 py-2">
+              But last generation's websites were designed with a horizontal desktop monitor and mouse in mind.
+            </p>
+            <p class="mb-5 py-2">
+              We take a mobile-first approach to design, making the touchscreen experience our highest priority.
+            </p>
+            <p class="mb-5 py-2">
+              This naturally leads to a clean interface that will look great on screens of all shapes and sizes.
+            </p>
+          </div>
+
+          <div class="border-b border-l p-10 pr-2">
+            <ion-icon name="document-text-outline" class="text-5xl text-red-400"></ion-icon>
+            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl lg:text-3xl">Copywriting & Marketing</h4>
+            <p class="mb-5 py-2">
+              A beautiful website doesn't mean much if it isn't accompanied by copy that sells. 
+            </p>
+            <p class="mb-5 py-2">
+              When a user lands on your site, we have just a few precious seconds to persuade them to stick around.
+            </p>
+            <p class="mb-5 py-2">
+              We captivate your users by anticipating their needs with carefully crafted copy and clear calls to action.
+            </p>
+
+          </div>
+
+          <div class="border-b border-l p-10 pr-2" id="seo">
+            <ion-icon name="search-outline" class="text-5xl text-red-400"></ion-icon>
+            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl lg:text-3xl">Search Engine Optimization</h4>
+            <p class="mb-5 py-2">
+              To the uninitiated, SEO can feel a lot like sorcery.  
+            </p>
+            <p class="mb-5 py-2">
+              (It is true that <a class="underline text-gray-100 hover:text-red-400" href="https://www.seroundtable.com/google-dont-understand-rankbrain-21744.html" target="_blank">Google's engineers don't fully understand</a> how their own algorithms work.)
+            </p>
+            <p class="mb-5 py-2">
+              We aim to demystify the SEO process by walking our clients through the industry-standard tools we use.
+            </p>
+            <p class="mb-5 py-2">
+              All of our website packages include basic keyword research, technical SEO, and <a class="underline text-gray-100 hover:text-red-400" href="https://moz.com/learn/seo/schema-structured-data" target="_blank">Schema markup</a> - the latest and greatest way to impress Google's mysterious bots.
+            </p>
+          </div>
+
+          <div class="p-10 pr-2 border-l border-b mb-10">
+            <ion-icon name="cloud-upload-outline" class="text-5xl text-red-400"></ion-icon>
+            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl lg:text-3xl">Deployment & Technical Support</h4>
+            <p class="mb-5 py-2">
+              We are not a hosting service, but we are happy to work directly with your web host (or offer advice on choosing a new host) to deploy your site.
+            </p>
+            <p class="mb-5 py-2">
+              We can also help with migrating existing content to a new site, and onboarding you and your employees to your new content management system (CMS) if you have one in place.
+            </p>
+            <p class="mb-5 py-2">
+              After your site goes live, we'll always be available for technical support. Let us know how we can help!
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="flex place-content-center">
+          <button class="inline-block w-full m-10 p-4 tracking-tighter bg-red-400 text-gray-800 rounded-md lg:w-1/2 hover:bg-red-300"><a href="#contact">Request a Quote</a></button>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="portfolio" class="p-10 lg:px-32 bg-gray-400 text-gray-900 border-b-8 border-t-8 border-gray-500">
+
+      <h2 class="mt-5 mb-2 py-2 uppercase text-4xl lg:text-5xl tracking-tighter">Portfolio</h2>
+
+      <div class="md:grid md:grid-cols-3 md:grid-rows-1 md:gap-10 md:items-start">
+
+        <div class="border-l-8 border-b-8 bg-gray-300 border-gray-500 my-10 p-10">
+          
+          <img src="glr-ss-m.jpg" class="border-2 border-gray-900 w-full my-5 rounded-lg">
+          <h4 class="py-2 tracking-tighter text-2xl lg:text-3xl">Good Life Revival</h4>
+          <p class="my-2 py-2 text-gray-600">Lifestyle brand and educational resource dedicated to sustainability and self-reliance.</span>
+          <ul>
+            <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="https://www.thegoodliferevival.com" target="_blank">View site</a></li>
+            <!--<li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600"" href="#">Read case study</a></li>-->
+          </ul>
+        </div>
+
+        <!--<div class="border-l-8 border-b-8 bg-gray-300 border-gray-500 my-10 p-10">
+          
+          <img src="ls-ss-m.jpg" class="border-2 border-gray-900 w-full my-5 rounded-lg">
+          <h4 class="py-2 tracking-tighter text-2xl lg:text-3xl">Lyonscape</h4>
+          <p class="my-2 py-2 text-gray-600">Landscaping company in Santa Cruz, CA.</span>
+          <ul>
+            <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="#">View site</a></li>
+            <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="#">Read case study</a></li>
+          </ul>
+        </div>-->
+
+        <div class="border-l-8 border-b-8 bg-gray-300 border-gray-500 my-10 p-10">
+          
+          <img src="rtr-ss-m.jpg" class="border-2 border-gray-900 w-full my-5 rounded-lg">
+          <h4 class="py-2 tracking-tighter text-2xl lg:text-3xl">Restore the Redwoods</h4>
+          
+          <p class="my-2 py-2 text-gray-600">Non-profit organization raising awareness about the impacts of climate change on the redwood ecosystem.</span>
+            <ul>
+              <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="https://restoretheredwoods.netlify.app" target="_blank">View site</a></li>
+              <!--<li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="#">Read case study</a></li>-->
+            </ul>
+        </div>
+
+        <div class="border-l-8 border-b-8 bg-gray-300 border-gray-500 my-10 p-10">
+          
+          <img src="jzk-ss-m.jpg" class="border-2 border-gray-900 w-full my-5 rounded-lg">
+          <h4 class="py-2 tracking-tighter text-2xl lg:text-3xl">Joshu's Zen Koans</h4>
+          <p class="my-2 py-2 text-gray-600">Collection of Buddhist parables that feature the Zen monk Joshu.</span>
+            <ul>
+              <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="https://joshu-zen-koans.netlify.app" target="_blank">View site</a></li>
+              <!--<li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="#">Read case study</a></li>-->
+            </ul>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="about" class="p-10 lg:px-32">
+      <div class="md:grid md:grid-cols-5 md:grid-rows-1 md:gap-10 md:items-center">
+
+        <div class="col-span-3 ">
+          <h2 class="mb-5 py-2 uppercase text-4xl lg:text-5xl tracking-tighter text-gray-100">About</h2>
+          <div class="border-b border-l p-10 pr-2 mb-10">
+          <p class="mb-5 py-2 text-3xl lg:text-4xl font-thin">
+            Sycamore Design is a web design 
+            and development firm based in Santa Cruz, California.
+          </p>
+
+          <p class="mb-5 py-2">
+            We specialize in modern, mobile-responsive websites for local businesses that are optimized according to <a href="https://developers.google.com/search/docs" class="underline text-gray-100 hover:text-red-400" target="_blank">Google's best practices</a> for SEO.
+          </p>
+          <p class="mb-5 py-2">
+            We especially love working with contractors, tradespeople, and small business owners. But we are happy to take on clients from any industry if it's a good fit.
+          </p>
+          </div>
+        </div>
+
+        <div class="col-span-2">
+          <img src="sam-sycamore.jpg" class="w-full mb-2">
+          <span class="italic text-gray-100 py-2">Sam Sycamore, owner</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="contact" class="p-10 lg:px-32 flex place-content-center">
+      <div class="max-w-xl mb-10 bg-gray-100 text-gray-900 p-10 border-l-8 border-b-8 bg-gray-300 border-gray-500 md:col-span-2">
+          
+        <h3 class="mb-5 py-2 text-4xl lg:text-5xl tracking-tighter uppercase">Contact</h2>
+
+        <p class="mb-5 py-2">
+          Let's talk about how we can work together to improve your web presence. 
+        </p>
+        <p class="mb-5 py-2">
+          Shoot us a message through the form below, and we will be in touch shortly to schedule a quick call.
+        </p>
+  
+          <form id="contactForm">
+            <label for="name">* Name:</label><br>
+            <input id="name" name="name" type="text" required class="w-full mb-6 border-b border-l border-red-400"><br>
+  
+            <label for="email">* Email:</label><br>
+            <input id="email" name="email" type="email" required class="w-full mb-6 border-b border-l border-red-400"><br>
+  
+            <label for="phone">* Phone:</label><br>
+            <input id="phone" name="phone" type="tel" required class="w-full mb-6 border-b border-l border-red-400"><br>
+  
+            <label for="comment">* Tell us about your project:</label><br>
+            <textarea id="comment" name="comment" rows="3" cols="20" required class="w-full mb-6 border-b border-l border-red-400"></textarea><br>
+            <span class="italic text-lg">* required</span>
+            <button type="submit" value="Submit" onclick="sendEmail()" class="inline-block w-full my-4 py-4 px-4 bg-red-400 tracking-tighter text-gray-800 rounded-md hover:bg-red-300"><a href="#contact">Submit</a></button>
+        </form>
+  
+      </div>
+      
+    </section>
+
+
+
+
+  </main>
+
+
+  <footer class="p-10 mb-20 flex place-content-center text-lg">
+
+
+    <div class="max-w-xl">
+      <span class="uppercase font-bold text-2xl tracking-tighter text-gray-100 py-5">Sycamore</span> <span class="text-red-400 mr-5 uppercase font-bold text-2xl tracking-tighter">Design</span>
+      <span>Copyright 2021.</span>
+    </div>
+
+  </footer>
+
+  </div>
+
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="form.js"></script>
+</body>
+</html>
