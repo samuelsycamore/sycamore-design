@@ -14,8 +14,13 @@
 <body class="antialiased text-xl md:text-2xl text-yellow-100 font-light bg-gray-800">
 
 
-  <div class="fixed z-50 top-100 bottom-0 w-full md:left-1/2 p-8 pb-5 lg:px-36 transform md:-translate-x-1/2 ">
 
+
+
+
+
+
+  <div class="fixed z-50 top-100 bottom-0 w-full md:left-1/2 p-8 pb-5 lg:px-36 transform md:-translate-x-1/2 ">
     <nav class="bg-gray-900 bg-opacity-90 flex justify-evenly py-3 rounded-lg overflow-hidden text-gray-100 font-extralight" aria-label="quick access">
 
 
@@ -39,6 +44,14 @@
 
 
 
+
+
+
+
+
+
+
+
   <div class="container max-w-full lg:pt-24">
 
   <header class="p-3 md:p-10 lg:px-32 mb-10">
@@ -54,7 +67,7 @@
         </div>
 
         <div class="w-full">
-            <p class="mb-5 text-3xl md:text-2xl lg:text-4xl italic text-center font-thin">Full-service web development for a new era.</p>
+            <p class="mb-5 px-12 text-3xl md:text-4xl italic text-center font-thin">Full-service web development for a new era.</p>
         </div>
         <div class="w-full text-center">
             <button class="inline-block text-xl md:inline md:w-5/12 md:mr-2 w-full mb-4 py-3 px-3 bg-red-400 tracking-tighter text-gray-800 rounded-md hover:bg-red-300"><a href="#contact">Work With Us</a></button>
@@ -69,15 +82,23 @@
 
   <main>
 
+
+
+
+
+
+
+
+
     <section id="services" class="p-3 md:p-10 lg:px-32">
 
       <div class="lg:grid lg:grid-cols-5 lg:grid-rows-1 lg:gap-10 lg:content-center">
 
         <div class="md:col-span-3">
 
-          <h2 class="mb-5 uppercase text-4xl md:text-5xl tracking-tighter text-gray-100">What We Do</h2>
+          <h2 class="text-center md:text-left my-5 py-2 uppercase text-4xl md:text-5xl tracking-tighter text-gray-100">What We Do</h2>
           
-          <div class="border-b border-l p-3 md:p-10 mb-10">
+          <div class="md:border-b md:border-l p-3 md:p-10 mb-10">
             <p class="mb-10 py-2 text-3xl lg:text-5xl font-thin">We build smartphone-friendly websites that will impress your customers <span class="italic">and</span> make Google happy.
             </p>
             <p class="mb-5 py-2">Find out more about <a class="underline text-gray-100 hover:text-red-400" href="#seo">how this works</a> behind the scenes.</p>
@@ -108,15 +129,19 @@
       </div>
 
 
+
+
       <div class="py-10">
         <div class="">
-          <h2 class="mb-5 py-2 uppercase text-4xl md:text-5xl tracking-tighter text-gray-100">Services</h2>
+          <h2 class="text-center md:text-left mb-5 py-2 uppercase text-4xl md:text-5xl tracking-tighter text-gray-100">Services</h2>
         </div>
 
-        <div class="lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-10 lg:items-start lg:auto-cols-auto">
-          <div class="border-b border-l p-3 md:p-10">
+        <div class="lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-10 lg:items-start">
+
+
+          <div class="flex flex-col place-items-center md:block md:border-b md:border-l p-3 md:p-10">
             <ion-icon name="code-slash-outline" class="text-5xl text-red-400"></ion-icon>
-            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Design & Development</h4>
+            <h4 class="text-center md:text-left mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Design & Development</h4>
             <p class="mb-5 py-2">
               In 2021, your customers are looking for you on small vertical screens that we navigate with our thumbs. 
             </p>
@@ -134,9 +159,9 @@
             </p>-->
           </div>
 
-          <div class="border-b border-l p-3 md:p-10">
+          <div class="flex flex-col place-items-center md:block md:border-b md:border-l p-3 md:p-10">
             <ion-icon name="document-text-outline" class="text-5xl text-red-400"></ion-icon>
-            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Copywriting & Marketing</h4>
+            <h4 class="text-center md:text-left mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Copywriting & Marketing</h4>
             <p class="mb-5 py-2">
               A beautiful website doesn't mean much if it isn't accompanied by copy that sells. 
             </p>
@@ -152,9 +177,9 @@
 
           </div>
 
-          <div class="border-b border-l p-3 md:p-10" id="seo">
+          <div class="flex flex-col place-items-center md:block md:border-b md:border-l p-3 md:p-10" id="seo">
             <ion-icon name="search-outline" class="text-5xl text-red-400"></ion-icon>
-            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Search Engine Optimization</h4>
+            <h4 class="text-center md:text-left mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Search Engine Optimization</h4>
             <p class="mb-5 py-2">
               To the uninitiated, SEO can feel a lot like sorcery.  
             </p>
@@ -172,9 +197,9 @@
             </p>-->
           </div>
 
-          <div class="p-3 md:p-10 border-l border-b mb-10">
+          <div class="flex flex-col place-items-center md:block p-3 md:p-10 md:border-b md:border-l mb-10">
             <ion-icon name="cloud-upload-outline" class="text-5xl text-red-400"></ion-icon>
-            <h4 class="mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Deployment & Technical Support</h4>
+            <h4 class="text-center md:text-left mb-5 py-2 text-gray-400 tracking-tighter text-2xl md:text-3xl">Deployment & Technical Support</h4>
             <p class="mb-5 py-2">
               We are not a hosting service, but we are happy to work directly with your web host (or offer advice on choosing a new host) to deploy your site.
             </p>
@@ -200,9 +225,18 @@
 
     </section>
 
+
+
+
+
+
+
+
+
+
     <section id="portfolio" class="p-3 md:p-10 lg:px-32 bg-gray-400 text-gray-900 border-b-8 border-t-8 border-gray-500">
 
-      <h2 class="mt-5 mb-2 py-2 uppercase text-4xl md:text-5xl tracking-tighter">Portfolio</h2>
+      <h2 class="text-center md:text-left my-5 py-2 uppercase text-4xl md:text-5xl tracking-tighter">Portfolio</h2>
 
       <div class="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-10 md:items-start">
 
@@ -223,7 +257,7 @@
           <h4 class="py-2 tracking-tighter text-2xl md:text-3xl">Lyonscape</h4>
           <p class="my-2 py-2 text-gray-600">Landscaping company in Santa Cruz, CA.</span>
           <ul>
-            <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="https://restoretheredwoods.netlify.app" target="_blank">View site</a></li>
+            <li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="http://www.lyonscape.com" target="_blank">View site</a></li>
               <!--<li><ion-icon name="chevron-forward-outline" class="text-sm"></ion-icon> <a class="underline font-bold hover:text-red-600" href="#">Read case study</a></li>-->
           </ul>
         </div>
@@ -256,12 +290,20 @@
 
     </section>
 
+
+
+
+
+
+
+
+
     <section id="about" class="p-3 md:p-10 lg:px-32">
       <div class="md:grid md:grid-cols-5 md:grid-rows-1 md:gap-10 md:items-center">
 
         <div class="col-span-3 ">
-          <h2 class="mb-5 py-2 uppercase text-4xl md:text-5xl tracking-tighter text-gray-100">About</h2>
-          <div class="border-b border-l p-3 md:p-10 mb-10">
+          <h2 class="text-center md:text-left my-5 py-2 uppercase text-4xl md:text-5xl tracking-tighter text-gray-100">About</h2>
+          <div class="md:border-b md:border-l p-3 md:p-10 mb-10">
           <p class="mb-5 py-2 text-3xl lg:text-4xl font-thin">
             Sycamore Design is a web design 
             and development firm based in Santa Cruz, California.
@@ -285,10 +327,19 @@
 
     </section>
 
+
+
+
+
+
+
+
+
+
     <section id="contact" class="p-3 md:p-10 lg:px-32 flex place-content-center">
       <div class="max-w-xl mb-10 text-gray-900 p-10 border-l-8 border-b-8 bg-gray-300 border-gray-500 md:col-span-2">
           
-        <h3 class="mb-5 py-2 text-4xl lg:text-5xl tracking-tighter uppercase">Contact</h2>
+        <h3 class="text-center md:text-left mb-5 py-2 text-4xl md:text-5xl tracking-tighter uppercase">Contact</h2>
 
         <p class="mb-5 py-2">
           Let's talk about how we can work together to improve your web presence. 
@@ -321,6 +372,14 @@
 
 
   </main>
+
+
+
+
+
+
+
+
 
 
   <footer class="p-3 md:p-10 lg:px-32 mb-20 flex place-content-center text-lg">
